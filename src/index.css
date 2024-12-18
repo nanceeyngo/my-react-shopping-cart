@@ -1,0 +1,200 @@
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+nav {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  background-color: brown;
+  padding-inline: 20px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+}
+nav a:hover,
+nav a:active {
+  color: grey;
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 15px;
+}
+.ProductList{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .product {
+    border: brown solid 5px;
+    background-color: white;
+    box-shadow: black 0px 5px 15px;
+    width:280px;
+    height: 450px;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .cart-item {
+    border: brown solid 5px;
+    background-color: white;
+    box-shadow: black 0px 5px 15px;
+    width: calc(30% - 40px);
+    /* width:280px; */
+    /* height: 450px; */
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin: auto; */
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-sizing: border-box;
+    text-align: center;
+    flex-wrap: wrap;
+    
+
+    
+  }
+  .product img {
+    height: 190px;
+    width: 230px;
+    border-radius: 20px;
+  }
+  .cart-item img {
+    height: 190px;
+    width: 230px;
+    border-radius: 20px;
+}
+
+  .price{
+    color: darkgoldenrod;
+    font-weight: bolder
+  }
+  .description{
+    padding: 5px;
+  }
+  button{
+    background-clip: padding-box;
+    background-color: orangered;
+    border: solid transparent 2px;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+      Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    min-height: 30px;
+    padding: 10px;
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    width: auto;
+    touch-action: manipulation;
+    vertical-align: bottom;
+    margin: auto 0 0 0;
+  }
+  button:hover,
+  button:focus {
+    background-color: orange;
+    box-shadow: black 0 4px 12px 0;
+  }
+  button:hover {
+    transform: translateY(-1px);
+  }
+  section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cart {
+    margin: auto;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    box-shadow: black 0px 5px 15px;
+    padding: 40px;
+    /* width: 700px;
+    height: 700px; */
+    
+    flex-wrap: wrap;
+    gap: 20px;
+    
+  }
+  .details{
+    text-align: center;
+   
+  }
+  .details p {
+    margin: 10px 0;
+    color: #555;
+}
+  #empty{
+    padding: 40px;
+    display: inline-block;
+    
+  }
+  #total {
+    padding: 20px;
+    display: block;
+    font-size: 25px;
+    font-weight: bolder;
+    color: blue;
+    text-align: center;
+    
+  }
+  #stock {
+    font-size: small;
+  }
+  .shop{
+    text-align: center;
+  }
+  .check{
+    text-align: center;
+    margin: auto;
+    display: block;
+  }
+/* .sample{
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}   */
+
+
+/* https://img.freepik.com/free-vector/circles-background-dark-tones_60389-166.jpg */
